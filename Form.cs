@@ -125,7 +125,7 @@ namespace Dcmotor
         {
             Parameters motor = new Parameters();
             double inputVoltage = 36; // [V] V_applied to commutators/terminals +-.
-            double loadTorque = 0.0; // [Nm].  External Load
+            double loadTorque = 0.59; // [Nm].  External Load
             double timeStep = 0.0003; // dt
             double maxTime = 7.5; // tmax
 
@@ -181,7 +181,7 @@ namespace Dcmotor
                     }
 
                     // Delay adjustment. increase milliSecondsDelay for slower more "real-time" simulation
-                    await Task.Delay(10);
+                    await Task.Delay(1);
                 }
                 else
                 {

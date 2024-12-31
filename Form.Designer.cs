@@ -61,13 +61,13 @@
             chartOhm.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             chartOhm.Legends.Add(legend1);
-            chartOhm.Location = new Point(635, 409);
+            chartOhm.Location = new Point(588, 409);
             chartOhm.Name = "chartOhm";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             chartOhm.Series.Add(series1);
-            chartOhm.Size = new Size(579, 438);
+            chartOhm.Size = new Size(545, 407);
             chartOhm.TabIndex = 0;
             chartOhm.Text = "chartOhmic";
             // 
@@ -77,13 +77,13 @@
             chartRadian.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             chartRadian.Legends.Add(legend2);
-            chartRadian.Location = new Point(635, 4);
+            chartRadian.Location = new Point(588, 4);
             chartRadian.Name = "chartRadian";
             series2.ChartArea = "ChartArea1";
             series2.Legend = "Legend1";
             series2.Name = "Series1";
             chartRadian.Series.Add(series2);
-            chartRadian.Size = new Size(579, 370);
+            chartRadian.Size = new Size(545, 370);
             chartRadian.TabIndex = 1;
             chartRadian.Text = "chartNewton";
             // 
@@ -99,7 +99,7 @@
             series3.Legend = "Legend1";
             series3.Name = "Series1";
             chartNewton.Series.Add(series3);
-            chartNewton.Size = new Size(627, 438);
+            chartNewton.Size = new Size(580, 407);
             chartNewton.TabIndex = 2;
             chartNewton.Text = "chartOhmic";
             // 
@@ -115,7 +115,7 @@
             series4.Legend = "Legend1";
             series4.Name = "Series1";
             chartWatt.Series.Add(series4);
-            chartWatt.Size = new Size(627, 370);
+            chartWatt.Size = new Size(580, 370);
             chartWatt.TabIndex = 3;
             chartWatt.Text = "chartNewton";
             // 
@@ -170,7 +170,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1228, 856);
+            ClientSize = new Size(1142, 824);
             Controls.Add(labelEfficiency);
             Controls.Add(labelLoad);
             Controls.Add(buttonStop);

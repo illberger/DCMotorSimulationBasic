@@ -48,7 +48,7 @@ namespace Dcmotor
             StartingCurrent = 0.208; // A
             MaxEfficiency = 0.873; // %                N
             TerminalResistance = 0.173; // Ohm
-            TerminalInductance = 0.848; // mH
+            TerminalInductance = 0.000848; // H
             TorqueConstant = 0.0891; // Nm/Ampere       Kt
             SpeedConstant = 107; // rpm/V
             VelocityConstant = 11.202; // rad/s/v
@@ -59,7 +59,7 @@ namespace Dcmotor
             NominalVelocity = 371.755131; // rad/s
             NoLoadVelocity = 394.793477; // rad/s
             StallTorque = 18.6; // Nm
-            J = (StallTorque * 0.3) / NominalVelocity; // Unused..
+            J = (StallTorque * 0.3) / NominalVelocity; // --- UNUSED ---
         }
     }
 }
