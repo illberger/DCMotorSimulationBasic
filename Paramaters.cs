@@ -38,10 +38,10 @@ namespace Dcmotor
         /// </summary>
         public Parameters()
         {
-            NominalVoltage = 36;  // V                 Va
-            NoLoadSpeed = 3770; //   RPM
-            NoLoadCurrent = 0.407; // A                iA
-            NominalSpeed = 3550; //   RPM
+            NominalVoltage = 36;  // V                 Rated armature/winding voltage
+            NoLoadSpeed = 3770; // RPM                 Expected RPM with Nominal Voltage and Tload == 0
+            NoLoadCurrent = 0.407; // A                Expected armature current at Tload == 0
+            NominalSpeed = 3550; //   RPM              Expected RPM with Nominal Voltage
             NominalTorque = 0.654; // Nm               Tshaft_nom
             NominalCurrent = 7.74; // A
             StallTorque = 18.6; // Nm                  Tstall
